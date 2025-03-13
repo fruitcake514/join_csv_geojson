@@ -5,7 +5,7 @@ const csv = require('csv-parser');
 const csvFilePath = 'in.csv'; // Update with your CSV file path
 const geojsonFilePath = 'in.geojson'; // Update with your GeoJSON file path
 
-const geojsonIdentifier = 'Cnty_Name'; // Column in GeoJSON to join on
+const geojsonIdentifier = 'column name'; // Column in GeoJSON to join on
 const outputFilePath = 'output.geojson';
 // Read CSV into a dictionary (use first column for matching, keep column names for extra fields)
 function readCSV(filePath) {
